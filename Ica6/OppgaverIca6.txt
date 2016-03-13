@@ -1,0 +1,83 @@
+
+NAND "gate"
+Input1 Input 2  Output
+0	0	1
+0	1	1
+1	0	1
+1	1	0
+
+		
+NOT "gate"
+Input 1 Output
+0	1
+0	1
+1	0
+1	0
+
+
+
+AND "gate"
+Input 1 Input 2 Output
+0	0	0
+0	1	0
+1	0	0
+1	1	1
+
+
+OR "gate"
+Input 1 Input 2  Output
+0	0	0
+0	1	1
+1	0	1
+1	1	1
+
+
+XOR "gate"
+Input 1 Input 2  Output
+0	0	0
+0	1	1
+1	0	1
+1	1	0
+
+
+
+NOR "gate"
+Input 1  Input 2  Output
+0	0	1
+0	1	0
+1	0	0
+1	1	0
+
+
+
+
+b)
+
+Går fra 
+- - - 1 1 1 - - -
+            ^
+
+Til
+- - 1 0 0 0 - - -
+
+
+bruker 8 opprasjoner
+
+Tilstander i opprasjoner:
+1: 0
+2: 1
+3: 1
+4: 1
+5: 2
+6: 2
+7: 2
+8: 2
+
+
+
+Beskriv forskjellene mellom prosessen beskrevet i avsnitt 4.1.3 og problemet analysert i videoen.
+
+
+Forskjellene mellom prosessen i avsnitt 4.1.3 og det i videoen er først og fremst at det finnes flere måter å løse river crossingen,
+ettersom at det kan løses på 2 forskjellige måter. Dette kan derimot ikke prosessen i avsnitt 4.1.3.
+
